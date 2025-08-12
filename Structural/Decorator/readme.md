@@ -32,3 +32,30 @@ Decorator → Abstract wrapper that implements the same interface and has a refe
 
 ConcreteDecorator → Adds extra functionality.
 
+___________________________________________________________
+6. Key Interview Points
+Pros
+
+Adheres to Open-Closed Principle.
+
+Flexible and reusable.
+
+Avoids subclass explosion.
+
+Cons
+
+Can lead to too many small objects.
+
+Debugging can be tricky when many layers are wrapped.
+
+Real-world use cases
+
+Java I/O Streams (BufferedInputStream, DataInputStream, etc.).
+
+UI frameworks (adding borders, shadows).
+
+Logging frameworks.
+
+
+//next step
+If you want, I can also show you how Java’s BufferedReader, InputStream, etc. use the Decorator Pattern — it’s a classic real-world example that often gets asked in interviews.
